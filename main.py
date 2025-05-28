@@ -48,7 +48,7 @@ class CalcObj:
 
         
     def init_window(self):
-        self.root.title("Caluclator")
+        self.root.title("Calculator: Made by ZachG1235")
         # self.root.geometry(f"{X_WINDOW_PIXELS}x{Y_WINDOW_PIXELS}")
         self.root.configure(bg="white")
         header_label = ttk.Label(self.root, text=str("N/A"), 
@@ -291,7 +291,7 @@ def main():
     calc_obj = CalcObj(root_content)
     print("Thank you for checking out my calculator!")
     print("Feel free to try to break it, let me know what doesn't work!")
-    print("Made by: @ZachG1235 on github")
+    print("Made by: @ZachG1235 on Github")
     calc_obj.root.mainloop()
 
 main()
