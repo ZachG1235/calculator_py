@@ -290,8 +290,9 @@ def main():
     root_content = tkinter.Tk()
     calc_obj = CalcObj(root_content)
     print("Thank you for checking out my calculator!")
-    print("Feel free to try to break it, let me know what doesn't work!")
+    print("Feel free to try and break it, let me know what doesn't work!")
     print("Made by: @ZachG1235 on Github")
     calc_obj.root.mainloop()
 
-main()
+if __name__ == "__main__":
+    main()
